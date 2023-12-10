@@ -9,7 +9,6 @@
 
 <br /><br />
 
-
 <h2 align="center"> 📝What are SID's and why are they important 📝</h2>
 
 
@@ -32,10 +31,15 @@
 
 
 <h3 align="center">Windows</h3>
+
 <h4 align="center">Services</h4>
 <h4 align="center">Scheduled Tasks</h4>
 <h4 align="center">Registry Keys</h4>
 <h4 align="center">Startup Items</h4>
+
+
+
+
 
 <br /><br />
 <h3 align="center">Linux</h3>
@@ -131,3 +135,28 @@ PowerShell
 
 <br /><br />
 <br /><br />
+
+
+
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
