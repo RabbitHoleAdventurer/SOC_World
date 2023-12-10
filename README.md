@@ -21,6 +21,21 @@
 <br /><br />
 
 
+
+<h3 align="center"> 📝 Common Areas of Persistence 📝</h3>
+
+
+<h4 align="center">Windows</h4>
+
+<h4 align="center">Linux</h4>
+
+<h4 align="center">MacOS</h4>
+
+
+
+<br /><br />
+
+
 <h3 align="center">📝 DNS Logs 📝</h3>
 
 <br /><br />
@@ -47,6 +62,12 @@ WINDOWS COMMAND
 LINUX COMMAND
 ```
 
+<h4 align="center">MacOS</h4>
+
+```
+MacOS COMMAND
+```
+
 
 <br /><br />
 <h3 align="center">Displaying User Info</h3>
@@ -63,8 +84,46 @@ Command Line
 PowerShell
 ```
 
+
+<br /><br />
+<h3 align="center">Disabling Domain User</h3>
+
+<h4 align="center">Command Line</h4>
+
+```
+Command Line
+```
+
+<h4 align="center">PowerShell</h4>
+
+```
+PowerShell
+```
+
+<br /><br />
+
+<h3 align="center">Disabling Local User</h3>
+
+<h4 align="center">Command Line</h4>
+
+```
+Command Line
+```
+
+<h4 align="center">PowerShell</h4>
+
+```
+PowerShell
+```
+
+
 <br /><br />
 <br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<br /><br />
+
 
 ```
 HERE IS A CODE BOX
