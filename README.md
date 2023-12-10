@@ -21,6 +21,12 @@
 <br /><br />
 
 
+<h3 align="center"> 📝 Linux Process Analysis 📝</h3>
+
+<h4 align="center">LSOF Commands</h4>
+
+<br /><br />
+
 
 <h3 align="center"> 📝 Common Areas of Persistence 📝</h3>
 
