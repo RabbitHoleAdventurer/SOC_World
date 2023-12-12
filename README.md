@@ -5,9 +5,9 @@
 <br />
 
 <h2 align="center"> 📝 What is a SOC?  📝 </h2>
-<h3 align="center">
+<h5 align="center">
 A Security Operations Center (SOC) is a team within an organization that is responsible for monitoring and managing security-related issues. The primary goal of a SOC is to detect, analyze, respond, and mitigate cybersecurity threats in real-time. SOC teams use a combination of tools to triage alerts and make informed decisions. 
-</h3>
+</h5>
 
 <br /><br />
 
