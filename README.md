@@ -1,57 +1,57 @@
-<h2 align="center">SOC World </h2>
+<h2>SOC World </h2>
 
-<h4 align="center"> This repository includes random nuggets of information to help guide you through SOC Investigations </h4>
+<h4> This repository includes random nuggets of information to help guide you through SOC Investigations </h4>
 
 <br />
 
-<h2 align="center"> 📝 What is a SOC?  📝 </h2>
-<h5 align="center">
+<h2> 📝 What is a SOC?  📝 </h2>
+<h5>
 A Security Operations Center (SOC) is a team within an organization that is responsible for monitoring and managing security-related issues. The primary goal of a SOC is to detect, analyze, respond, and mitigate cybersecurity threats in real-time. SOC teams use a combination of tools to triage alerts and make informed decisions. 
 </h5>
 
 <br /><br />
 
-<h2 align="center"> 📝What are SID's and why are they important 📝</h2>
+<h2> 📝What are SID's and why are they important 📝</h2>
 
 
 <br /><br />
 
 
-<h2 align="center"> 📝 Processes and Process Trees 📝</h2>
+<h2> 📝 Processes and Process Trees 📝</h2>
 
 <br /><br />
 
 
-<h3 align="center"> 📝 Linux Process Analysis 📝</h3>
+<h3> 📝 Linux Process Analysis 📝</h3>
 
-<h4 align="center">LSOF Commands</h4>
-
-<br /><br />
-
-
-<h2 align="center"> 📝 Common Areas of Persistence 📝</h2>
-
-
-<h3 align="center">Windows</h3>
-
-<h4 align="center">Services</h4>
-<h4 align="center">Scheduled Tasks</h4>
-<h4 align="center">Registry Keys</h4>
-<h4 align="center">Startup Items</h4>
-
-
-
-
+LSOF Commands
 
 <br /><br />
-<h3 align="center">Linux</h3>
+
+
+<h2> 📝 Common Areas of Persistence 📝</h2>
+
+
+<h3>Windows</h3>
+
+<h4>Services</h4>
+<h4>Scheduled Tasks</h4>
+<h4>Registry Keys</h4>
+<h4>Startup Items</h4>
+
+
+
+
 
 <br /><br />
-<h3 align="center">MacOS</h3>
+<h3>Linux</h3>
 
-<h4 align="center">Launch Daemon and Launch Agents</h4>
+<br /><br />
+<h3>MacOS</h3>
 
-<h5 align="center">
+<h4>Launch Daemon and Launch Agents</h4>
+
+
 
 Launch Agents/Daemons are often installed to perform updates to programs, launch user specified programs at login, or to conduct other developer tasks.
 
@@ -59,31 +59,28 @@ Launch Agents/Daemons behavior is stored in a plist file used to interact with L
 
 Launch Daemons require elevated privileges to install, are executed for every user on a system prior to login and run in the background without the need for user interaction.
 
-</h5>
+
 
  <br />
 
-<h4 align="center">Required Launch Daemons parameters include:</h4>
+<h4>Required Launch Daemons parameters include</h4>
 
-<h5 align="center">
 
   Label to identify the task
 
   Path to the executable
 
   RunAtLoad to specify when the task is run (set to true to run at Startup)
-</h5>
+
  
 <br />
 
-<h5 align="center">
 
 Biggest difference between launch daemons and launch agents are that:
 Daemons execute tasks at the system-level
 
 Agents execute tasks within the context of the user’s interactive session
 
-</h5>
 
 <br /><br />
 
@@ -94,35 +91,33 @@ Agents execute tasks within the context of the user’s interactive session
 
 
 
-<h2 align="center"> 📝 DNS Logs 📝</h2>
+<h2> 📝 DNS Logs 📝</h2>
 
 <br /><br />
 
 
 
-<h2 align="center">📝 MacOS 📝</h2>
-<h3 align="center">MacOS Best Practices</h3>
+<h2>📝 MacOS 📝</h2>
+<h3>MacOS Best Practices</h3>
 
-<h4 align="center">
 Enabling Gatekeeper, Configuring System Integrity Protection (SIP), Enabling Auto Update, Disabling Screen Sharing
-  
-</h4>
+
 
 <br />
-<h4 align="center">Enabling Gatekeeper</h4>
+<h4>Enabling Gatekeeper</h4>
 
-<h5 align="center">
+
 This feature protects the machine from launching unknowingly malicious applications.
 
 This is done by enforcing code signing and limiting the sources that applications can be downloaded from.
-</h5>
+
 
 <br /><br />
 
 
-<h4 align="center">Configuring System Integrity Protection (SIP)</h4>
+<h4>Configuring System Integrity Protection (SIP)</h4>
 
-<h5 align="center">
+
 This feature provides:
 
 Protection to the entire system by preventing the execution of unauthorized code. 
@@ -130,20 +125,20 @@ Protection to the entire system by preventing the execution of unauthorized code
 For example, protection for system files and directories, code injection protection, runtime attachments protection, protection against unsigned kernel extensions.
 
 Reduces the chance of a Mac being subject to malicious runtime attachments.
-</h5>
+
 
 
 <br /><br />
 
-<h4 align="center"> What is a Plist file? Why are they important? </h4>
-<h5 align="center">
+<h4> What is a Plist file? Why are they important? </h4>
+
 
 Plist stands for property list 
 
 Used to store application preferences, in essence this is the configuration information for an application.
 
 The behavior of a daemon/agent is specified in this property file usually written in XML
-</h5>
+
 
 
 <br /><br />
@@ -152,10 +147,10 @@ The behavior of a daemon/agent is specified in this property file usually writte
 
 
 
-<h2 align="center">📝 Rapid Fire Commands 📝</h2>
+<h2>📝 Rapid Fire Commands 📝</h2>
 
-<h3 align="center">Hashes For Files</h3>
-<h4 align="center">Windows</h4>
+<h3>Hashes For Files</h3>
+<h4>Windows</h4>
 
 
 ```PowerShell
@@ -175,15 +170,17 @@ SHA512
 
 MD5
 
+<br /><br />
 
-
-<h4 align="center">Linux</h4>
+<h4>Linux</h4>
 
 ```
 LINUX COMMAND
 ```
 
-<h4 align="center">MacOS</h4>
+<br />
+
+<h4>MacOS</h4>
 
 ```
 shasum -a 256 [FILE]
@@ -202,16 +199,16 @@ Algorithms available to be used with the shasum command
 512
 
 
-<br /><br />
-<h3 align="center">Displaying User Info</h3>
+<br />
+<h3>Displaying User Info</h3>
 
-<h4 align="center">Command Line</h4>
+<h4>Command Line</h4>
 
 ```Batch
 net user [USER] /domain
 ```
 
-<h4 align="center">PowerShell</h4>
+<h4>PowerShell</h4>
 
 ```PowerShell
 Get-ADUser -Identity [USER]
@@ -223,15 +220,15 @@ Get-ADUser -Identity [USER] -Properties *
 
 
 <br /><br />
-<h3 align="center">Disabling Domain User</h3>
+<h3>Disabling Domain User</h3>
 
-<h4 align="center">Command Line</h4>
+<h4>Command Line</h4>
 
 ```Batch
 net user [USER] /domain /active:no
 ```
 
-<h4 align="center">PowerShell</h4>
+<h4>PowerShell</h4>
 
 ```PowerShell
 Disable-ADAccount -Identity [USER | Distinguished Name]
@@ -239,9 +236,9 @@ Disable-ADAccount -Identity [USER | Distinguished Name]
 
 <br /><br />
 
-<h3 align="center">Disabling Local User</h3>
+<h3>Disabling Local User</h3>
 
-<h4 align="center">Command Line</h4>
+<h4>Command Line</h4>
 
 ```Batch
 net user [USER] /active:no
