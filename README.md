@@ -186,8 +186,20 @@ LINUX COMMAND
 <h4 align="center">MacOS</h4>
 
 ```
-MacOS COMMAND
+shasum -a 256 [FILE]
 ```
+
+Algorithms available to be used with the shasum command
+
+1 (default)
+
+224
+
+256
+
+384
+
+512
 
 
 <br /><br />
