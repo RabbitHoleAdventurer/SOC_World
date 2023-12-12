@@ -47,8 +47,42 @@
 <br /><br />
 <h3 align="center">MacOS</h3>
 
+<h4 align="center">Launch Daemon and Launch Agents</h4>
 
+<h5 align="center">
 
+Launch Agents/Daemons are often installed to perform updates to programs, launch user specified programs at login, or to conduct other developer tasks.
+
+Launch Agents/Daemons behavior is stored in a plist file used to interact with Launchd (the service management framework) used by macOS.
+
+Launch Daemons require elevated privileges to install, are executed for every user on a system prior to login and run in the background without the need for user interaction.
+
+</h5>
+
+ <br />
+
+<h4 align="center">Required Launch Daemons parameters include:</h4>
+
+<h5 align="center">
+
+Label to identify the task
+
+Path to the executable
+
+RunAtLoad to specify when the task is run (set to true to run at Startup)
+</h5>
+ 
+<br />
+
+<h5 align="center">
+
+Biggest difference between launch daemons and launch agents are that:
+Daemons execute tasks at the system-level
+
+Agents execute tasks within the context of the user’s interactive session
+
+</h5>
+  
 <br /><br />
 
 
@@ -59,6 +93,29 @@
 
 
 <h2 align="center">📝 MacOS 📝</h2>
+<h3 align="center">MacOS Best Practices</h3>
+
+Enabling Gatekeeper
+<br />
+This feature protects the machine from launching unknowingly malicious applications.
+
+This is done by enforcing code signing and limiting the sources that applications can be downloaded from.
+
+
+<br /><br />
+
+
+Configuring System Integrity Protection (SIP)
+<br />
+This feature provides:
+
+Protection to the entire system by preventing the execution of unauthorized code. 
+
+For example, protection for system files and directories, code injection protection, runtime attachments protection, protection against unsigned kernel extensions.
+
+Reduces the chance of a Mac being subject to malicious runtime attachments.
+
+
 
 <br /><br />
 
