@@ -5,7 +5,9 @@
 <br />
 
 <h2 align="center"> 📝 What is a SOC?  📝 </h2>
-<h3 align="center">A Security Operations Center (SOC) is a team within an organization that is responsible for monitoring and managing security-related issues. The primary goal of a SOC is to detect, analyze, respond to, and mitigate cybersecurity threats in real-time. SOC teams use a combination of tools to triage alerts and make inform decisions. </h3>
+<h3 align="center">
+A Security Operations Center (SOC) is a team within an organization that is responsible for monitoring and managing security-related issues. The primary goal of a SOC is to detect, analyze, respond, and mitigate cybersecurity threats in real-time. SOC teams use a combination of tools to triage alerts and make informed decisions. 
+</h3>
 
 <br /><br />
 
@@ -65,11 +67,11 @@ Launch Daemons require elevated privileges to install, are executed for every us
 
 <h5 align="center">
 
-Label to identify the task
+  Label to identify the task
 
-Path to the executable
+  Path to the executable
 
-RunAtLoad to specify when the task is run (set to true to run at Startup)
+  RunAtLoad to specify when the task is run (set to true to run at Startup)
 </h5>
  
 <br />
@@ -82,11 +84,17 @@ Daemons execute tasks at the system-level
 Agents execute tasks within the context of the user’s interactive session
 
 </h5>
-  
+
 <br /><br />
 
 
-<h2 align="center">📝 DNS Logs 📝</h2>
+
+
+
+
+
+
+<h2 align="center"> 📝 DNS Logs 📝</h2>
 
 <br /><br />
 
@@ -95,18 +103,26 @@ Agents execute tasks within the context of the user’s interactive session
 <h2 align="center">📝 MacOS 📝</h2>
 <h3 align="center">MacOS Best Practices</h3>
 
-Enabling Gatekeeper
+<h4 align="center">
+Enabling Gatekeeper, Configuring System Integrity Protection (SIP), Enabling Auto Update, Disabling Screen Sharing
+  
+</h4>
+
 <br />
+<h4 align="center">Enabling Gatekeeper</h4>
+
+<h5 align="center">
 This feature protects the machine from launching unknowingly malicious applications.
 
 This is done by enforcing code signing and limiting the sources that applications can be downloaded from.
-
+</h5>
 
 <br /><br />
 
 
-Configuring System Integrity Protection (SIP)
-<br />
+<h4 align="center">Configuring System Integrity Protection (SIP)</h4>
+
+<h5 align="center">
 This feature provides:
 
 Protection to the entire system by preventing the execution of unauthorized code. 
@@ -114,10 +130,27 @@ Protection to the entire system by preventing the execution of unauthorized code
 For example, protection for system files and directories, code injection protection, runtime attachments protection, protection against unsigned kernel extensions.
 
 Reduces the chance of a Mac being subject to malicious runtime attachments.
-
+</h5>
 
 
 <br /><br />
+
+<h4 align="center"> What is a Plist file? Why are they important? </h4>
+<h5 align="center">
+
+Plist stands for property list 
+
+Used to store application preferences, in essence this is the configuration information for an application.
+
+The behavior of a daemon/agent is specified in this property file usually written in XML
+</h5>
+
+
+<br /><br />
+
+
+
+
 
 <h2 align="center">📝 Rapid Fire Commands 📝</h2>
 
@@ -125,9 +158,24 @@ Reduces the chance of a Mac being subject to malicious runtime attachments.
 <h4 align="center">Windows</h4>
 
 
+```PowerShell
+Get-FileHash [FILE] -Algorithm [ALGORITHM] | Format-List
 ```
-WINDOWS COMMAND
-```
+-Algorithm
+
+Specifies the cryptographic hash function to use for computing the hash value of the contents of the specified file or stream. The acceptable values for this parameter are:
+
+SHA1
+
+SHA256
+
+SHA384
+
+SHA512
+
+MD5
+
+
 
 <h4 align="center">Linux</h4>
 
@@ -147,14 +195,18 @@ MacOS COMMAND
 
 <h4 align="center">Command Line</h4>
 
-```
-Command Line
+```Batch
+net user [USER] /domain
 ```
 
 <h4 align="center">PowerShell</h4>
 
+```PowerShell
+Get-ADUser -Identity [USER]
 ```
-PowerShell
+
+```PowerShell
+Get-ADUser -Identity [USER] -Properties *
 ```
 
 
@@ -163,14 +215,14 @@ PowerShell
 
 <h4 align="center">Command Line</h4>
 
-```
-Command Line
+```Batch
+net user [USER] /domain /active:no
 ```
 
 <h4 align="center">PowerShell</h4>
 
-```
-PowerShell
+```PowerShell
+Disable-ADAccount -Identity [USER | Distinguished Name]
 ```
 
 <br /><br />
@@ -179,16 +231,9 @@ PowerShell
 
 <h4 align="center">Command Line</h4>
 
+```Batch
+net user [USER] /active:no
 ```
-Command Line
-```
-
-<h4 align="center">PowerShell</h4>
-
-```
-PowerShell
-```
-
 
 <br /><br />
 <br /><br />
