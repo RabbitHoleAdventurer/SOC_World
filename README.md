@@ -44,6 +44,8 @@ A domain identifier (21-1574559362-3190734025-665073282, Domain)
 
 A relative identifier (100269)
 
+<br /><br />
+For more info: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers
 
 
 <br /><br />
