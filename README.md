@@ -301,29 +301,29 @@ net user [USER] /active:no
 
 <br /><br />
 <h2>📝 Tools 📝</h2>
-Splunk
+Splunk - Platform used for searching, monitoring, and analyzing logs and events and used to provide operational intelligence
 <br /><br />
-Volatility
+Volatility - Open-source memory forensics framework which helps obtain running processes, open network sockets, injected code and more from memory images
 <br /><br />
-Cyberchef
+Cyberchef - Provides a set of tools for analyzing and decoding data. It's commonly used for tasks like converting data formats, encryption/decryption, compression/decompression, and more
 <br /><br />
-VirusTotal
+VirusTotal - A service that analyzes suspicious files and URLs to detect malware and provide insights into potential threats by scanning them with multiple antivirus engines
 <br /><br />
-AbuseIPDB
+AbuseIPDB - A database that collects and shares information about IP addresses that have been reported for malicious activity, such as hacking attempts, spamming, and other cyber threats. Provides a confidence of abuse score for each IP provided.
 <br /><br />
-ANY.RUN
+ANY.RUN - Interactive malware analysis tool that allows users to execute malware samples in a controlled environment and observe their behavior
 <br /><br />
-Urlscan.io
+Urlscan.io - A service that analyzes and scans websites for malicious content, phishing attempts, and other suspicious activities by examining their structure, behavior, and reputation. Also provides a view of the site without having to visit it yourself and any redirects that site may make.
 <br /><br />
-Osquery
+Osquery - Open-source operating system instrumentation framework for Windows, OS X (macOS), and Linux. It exposes an operating system as a high-performance relational database. This allows an analyst to write SQL queries to explore operating system data and query things such as running processes, loaded kernel modules, open network connections, browser plugins, hardware events or file hashes.
 <br /><br />
-Velociraptor
+Velociraptor - An endpoint visibility and digital forensics tool designed for incident response, threat hunting, and monitoring. It enables querying and monitoring endpoints at scale.
 <br /><br />
-DB Browser for SQLite
+DB Browser for SQLite - A visual tool for creating, designing, and managing SQLite databases. It allows users to execute SQL queries, browse data, and manage database files. Can be used to analyze Browser History for most main browsers. 
 <br /><br />
-MITRE ATT&CK Framework
+MITRE ATT&CK Framework - A knowledge base maintained by MITRE Corporation that describes adversary tactics, techniques, and procedures (TTPs) based on real-world observations. It's widely used in cybersecurity for threat intelligence, detection, and mitigation strategies.
 <br /><br />
-Atomic Red Team
+Atomic Red Team - A framework for testing detection capabilities and validating security controls by emulating adversary behaviors. These tests are mapped to the MITRE ATT&CK Framework.
 
 <br /><br />
 <br /><br />
