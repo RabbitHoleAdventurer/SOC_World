@@ -102,6 +102,10 @@ lsof -i -P
 
 <br /><br />
 <h3>Linux</h3>
+<h4>Cron Jobs</h4>
+<h4>Systemd Units</h4>
+<h4>Startup Items</h4>
+<h4>SSH Keys</h4>
 
 <br /><br />
 <h3>MacOS</h3>
