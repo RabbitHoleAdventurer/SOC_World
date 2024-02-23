@@ -52,7 +52,16 @@ For more info: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/m
 
 
 <h2> 📝 Processes and Process Trees 📝</h2>
-
+Processes on a computer show us what programs and binaries are running which helps us understand if there are nefarious things happening in our systems. 
+<br /><br />
+Process trees allow us to further add context into the commands that we observe running on the systems we analyze.
+<br /><br />
+With the relationship context, this allow us to make better informed decisions on what action to take during our investigations.
+<br /><br />
+There are times when a command looks suspicious but understanding the parent or grandparent relationship helps us know if this command should be running on our system or if it needs to be stopped and investigated.
+<br /><br />
+It is also much easier to find malicious activity by using process trees as when malicious activity is identified, we can look at the parent process and see what else spawned from that same parent. Allowing us to find other malicious activity quickly.
+<br /><br />
 <br /><br />
 
 
@@ -126,6 +135,14 @@ Agents execute tasks within the context of the user’s interactive session
 
 
 <h2> 📝 DNS Logs 📝</h2>
+The Domain Name System (DNS) serves as the Internet's contact list. When individuals browse the web, they use domain names such as google.com or amazon.com. However, web browsers communicate using Internet Protocol (IP) addresses. Yes, browsers use the IP protocol, the set of numbers that humans would never care to remember (x.x.x.x). DNS bridges this gap by translating domain names into IP addresses, enabling browsers to access online resources. Beyond facilitating web browsing, DNS is crucial for various network software, including malware, as it resolves domains to IP addresses before establishing connections over protocols like HTTP(S) and SMTP, among other protocols. As a result, DNS logging provides a comprehensive record of domain accessed by endpoints in the network environment, extending beyond just HTTP(S) traffic. This makes DNS logs a valuable resource for defenders seeking insights into network activity.
+<br /><br />
+
+Key things to look for on DNS logs:
+Top Level Domains not widely used in the organization
+Inbound and Outbound requests for top level domains for countries outside of where an organization does business
+Domains with short TTLs as these domains may be being used by attackers that are associating multiple IP addresses with one domain (DNS fast flux)
+Newly registered domains
 
 <br /><br />
 
