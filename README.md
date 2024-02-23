@@ -301,8 +301,29 @@ net user [USER] /active:no
 
 <br /><br />
 <h2>📝 Tools 📝</h2>
-
-
+Splunk
+<br /><br />
+Volatility
+<br /><br />
+Cyberchef
+<br /><br />
+VirusTotal
+<br /><br />
+AbuseIPDB
+<br /><br />
+ANY.RUN
+<br /><br />
+Urlscan.io
+<br /><br />
+Osquery
+<br /><br />
+Velociraptor
+<br /><br />
+DB Browser for SQLite
+<br /><br />
+MITRE ATT&CK Framework
+<br /><br />
+Atomic Red Team
 
 <br /><br />
 <br /><br />
