@@ -66,8 +66,22 @@ It is also much easier to find malicious activity by using process trees as when
 
 
 <h3> 📝 Linux Process Analysis 📝</h3>
+Everything in Linux is a file, this allow us to investigate things running in memory
+<br /><br />
+This information can be queried from /etc/proc
 
-LSOF Commands
+<br /><br />
+This can be done with the lsof command
+<br /><br />
+There are a few flags that would help an analyst to quickly triage suspicious or malicious activity on a Linux host
+<br /><br />
+List processes that have internet connections, this can be done with the -i flag
+lsof -i 
+
+List process information, this can be done with the -P flag
+<br /><br />
+We now have 
+lsof -i -P 
 
 <br /><br />
 
@@ -139,9 +153,13 @@ The Domain Name System (DNS) serves as the Internet's contact list. When individ
 <br /><br />
 
 Key things to look for on DNS logs:
+<br /><br />
 Top Level Domains not widely used in the organization
+<br /><br />
 Inbound and Outbound requests for top level domains for countries outside of where an organization does business
+<br /><br />
 Domains with short TTLs as these domains may be being used by attackers that are associating multiple IP addresses with one domain (DNS fast flux)
+<br /><br />
 Newly registered domains
 
 <br /><br />
