@@ -68,21 +68,39 @@ It is also much easier to find malicious activity by using process trees as when
 <h3> 📝 Linux Process Analysis 📝</h3>
 Everything in Linux is a file, this allow us to investigate things running in memory
 <br /><br />
-This information can be queried from /etc/proc
+Processes in memory can be queried from /etc/proc
 
 <br /><br />
-This can be done with the lsof command
+Another way of triaging processes running in memory is through the use of the lsof command
 <br /><br />
-There are a few flags that would help an analyst to quickly triage suspicious or malicious activity on a Linux host
+This binary allows us to list open files. There are a few flags here to quickly triage suspicious or malicious activity on a Linux host
 <br /><br />
-List processes that have internet connections, this can be done with the -i flag
+Listing processes that have open internet connections can be done with the -i flag
+```Shell
 lsof -i 
+```
 
-List process information, this can be done with the -P flag
+
+List process information, this can be done with the -P flag (this flag allows us to skip the port number)
 <br /><br />
 We now have 
-lsof -i -P 
+```Shell
+lsof -i -P
+```
+ 
 
+<br /><br />
+Equipped with the process ID, we can now run 
+```Shell
+lsof -p [PID OF INTEREST] 
+```
+where more information can be obtained about the process including:
+<br /><br />
+cwd: Current Working Directory
+<br /><br />
+txt: Usually used to figure out what binary is running
+<br /><br />
+mem: Libraries associated with the binary
 <br /><br />
 
 
