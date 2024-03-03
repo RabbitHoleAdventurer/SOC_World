@@ -103,6 +103,22 @@ txt: Usually used to figure out what binary is running
 mem: Libraries associated with the binary
 <br /><br />
 
+<h3> 📝 Linux File Analysis 📝</h3>
+
+To find out which files have been modified within the last N number of days you can run this command
+```Shell
+find / -mtime -N
+```
+
+Alternatively, you can look for files which have been modified more than N days ago with this command
+```Shell
+find / -mtime +N
+```
+> [!NOTE]
+> N being the number of days you're interested in
+
+<br /><br />
+
 
 <h2> 📝 Common Areas of Persistence 📝</h2>
 
