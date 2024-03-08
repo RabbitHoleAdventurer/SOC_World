@@ -334,6 +334,23 @@ net user [USER] /active:no
 ```
 
 <br /><br />
+<h3>Listing Scheduled Tasks</h3>
+
+```Batch
+schtasks /query /v /fo LIST
+```
+
+<br /><br />
+<h3>Removing Scheduled Tasks</h3>
+If you find a scheduled task that you do not recognize or deem to be suspicious/malicious. This is the way to remove said scheduled task from the command line.
+<br /><br />
+
+```Batch
+schtasks /Delete /TN "[TASK NAME]" /F
+```
+
+
+<br /><br />
 <h2>📝 Tools 📝</h2>
 Splunk - Platform used for searching, monitoring, and analyzing logs and events and used to provide operational intelligence
 <br /><br />
