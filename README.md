@@ -443,3 +443,16 @@ Antisyphon - SOC Core Skills
 https://www.antisyphontraining.com/on-demand-courses/soc-core-skills-w-john-strand/
 
 
+<br /><br />
+Blue Team Level 1 Certification
+<br /><br />
+https://www.securityblue.team/why-btl1/
+
+
+<br /><br />
+Blue Team Level 2 Certification
+<br /><br />
+https://www.securityblue.team/btl2/
+
+
+
