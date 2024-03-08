@@ -52,7 +52,7 @@ For more info: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/m
 
 
 <h2> 📝 Processes and Process Trees 📝</h2>
-Processes on a computer show us what programs and binaries are running which helps us understand if there are nefarious things happening in our systems. 
+Processes on a computer show us what programs and binaries are running which helps us understand if there are nefarious things happening in our systems. Processes can be identified by a number usually referred to as a PID and the parent process can be identified by their ID number which is usually referred to as PPID.
 <br /><br />
 Process trees allow us to further add context into the commands that we observe running on the systems we analyze.
 <br /><br />
