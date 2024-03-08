@@ -360,4 +360,73 @@ MITRE ATT&CK Framework - A knowledge base maintained by MITRE Corporation that d
 Atomic Red Team - A framework for testing detection capabilities and validating security controls by emulating adversary behaviors. These tests are mapped to the MITRE ATT&CK Framework.
 
 <br /><br />
+
+
+<h2>📝 Resources 📝</h2>
+Osquery
 <br /><br />
+https://www.youtube.com/watch?v=YpmGZseJbJY&ab_channel=JohnHammond
+
+<br /><br />
+
+MITRE ATT&CK & D3FEND
+<br /><br />
+https://attack.mitre.org/
+
+https://tryhackme.com/room/mitre
+
+
+<br /><br />
+
+Treat Hunting: Foothold
+<br /><br />
+https://tryhackme.com/room/threathuntingfoothold
+
+
+<br /><br />
+
+OODA - Observe, Orient, Decide, Act
+<br /><br />
+https://www.darkreading.com/cyberattacks-data-breaches/applying-the-ooda-loop-to-cybersecurity-and-secure-access-service-edge
+
+
+Cyber Kill Chain
+<br /><br />
+https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+
+
+<br /><br />
+
+Diamond Model of Instrusion Analysis
+https://flare.io/learn/resources/blog/diamond-model/
+
+<br /><br />
+
+Pyramid of Pain
+<br /><br />
+https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html
+
+<br /><br />
+
+DFIR Reports
+<br /><br />
+https://thedfirreport.com/
+
+
+<br /><br />
+Windows Forensics
+<br /><br />
+https://tryhackme.com/room/windowsforensics1
+
+
+<br /><br />
+Active Directory Basics
+<br /><br />
+https://tryhackme.com/room/winadbasics
+
+
+
+<br /><br />
+SANS Hunt Evil - Poster (Windows and Linux)
+<br /><br />
+https://www.sans.org/posters/hunt-evil/
