@@ -363,12 +363,16 @@ Atomic Red Team - A framework for testing detection capabilities and validating 
 
 
 <h2>📝 Resources 📝</h2>
+SOC Security Investigation
+<br /><br />
+https://www.socinvestigation.com/
+
+<br /><br />
 Osquery
 <br /><br />
 https://www.youtube.com/watch?v=YpmGZseJbJY&ab_channel=JohnHammond
 
 <br /><br />
-
 MITRE ATT&CK & D3FEND
 <br /><br />
 https://attack.mitre.org/
@@ -377,37 +381,34 @@ https://tryhackme.com/room/mitre
 
 
 <br /><br />
-
 Treat Hunting: Foothold
 <br /><br />
 https://tryhackme.com/room/threathuntingfoothold
 
 
 <br /><br />
-
 OODA - Observe, Orient, Decide, Act
 <br /><br />
 https://www.darkreading.com/cyberattacks-data-breaches/applying-the-ooda-loop-to-cybersecurity-and-secure-access-service-edge
 
 
+<br /><br />
 Cyber Kill Chain
 <br /><br />
 https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 
 
 <br /><br />
-
 Diamond Model of Instrusion Analysis
+<br /><br />
 https://flare.io/learn/resources/blog/diamond-model/
 
 <br /><br />
-
 Pyramid of Pain
 <br /><br />
 https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html
 
 <br /><br />
-
 DFIR Reports
 <br /><br />
 https://thedfirreport.com/
@@ -430,3 +431,15 @@ https://tryhackme.com/room/winadbasics
 SANS Hunt Evil - Poster (Windows and Linux)
 <br /><br />
 https://www.sans.org/posters/hunt-evil/
+
+
+
+<br /><br />
+<h2>📝 Training and Certifications 📝</h2>
+
+<br /><br />
+Antisyphon - SOC Core Skills 
+<br /><br />
+https://www.antisyphontraining.com/on-demand-courses/soc-core-skills-w-john-strand/
+
+
