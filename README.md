@@ -335,16 +335,17 @@ net user [USER] /active:no
 
 <br /><br />
 <h3>Listing Scheduled Tasks</h3>
-<br /><br />
 Do this to list all scheduled tasks
+<br /><br />
 
 ```Batch
 schtasks /query /v /fo LIST
 ```
 
-<h3>Listing Scheduled Task By Name</h3>
 <br /><br />
+<h3>Listing Scheduled Task By Name</h3>
 Do this to list a scheduled task by name
+<br /><br />
 
 ```Batch
 schtasks /query /tn "[NAME OF SCHEDULED TASK]"
