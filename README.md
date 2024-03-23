@@ -272,8 +272,13 @@ Get-FileHash [FILE] -Algorithm [ALGORITHM] | Format-List
 <h4>Linux</h4>
 
 ```Shell
-LINUX COMMAND
+shasum -a [ALGORITHM] [FILE]
 ```
+
+> [!NOTE]
+> [ALGORITHM] options are 1 (default), 224, 256, 384, 512, 512224, 512256
+
+<br /><br />
 
 <br />
 
