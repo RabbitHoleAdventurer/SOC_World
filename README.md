@@ -344,8 +344,11 @@ Do this to list all scheduled tasks
 <br /><br />
 
 ```Batch
-schtasks /query /v /fo LIST
+schtasks /query /v /fo LIST > scheduledtasklist.txt
 ```
+
+> [!NOTE]
+> This will create a file named scheduledtasklist.txt in the current working directory
 
 <br /><br />
 <h3>Listing Scheduled Task By Name</h3>
@@ -363,6 +366,39 @@ If you find a scheduled task that you do not recognize or deem to be suspicious/
 
 ```Batch
 schtasks /Delete /TN "[TASK NAME]" /F
+```
+
+<br /><br />
+<h3>Listing All Running Services</h3>
+Do this to list all running services
+<br /><br />
+
+```Batch
+sc queryex type=service > runningservices.txt
+```
+
+> [!NOTE]
+> This will create a file named runningservices.txt in the current working directory
+
+
+<br /><br />
+<h3>Stopping a Service</h3>
+To stop a service that you seem suspicious/malicious
+<br /><br />
+
+```Batch
+sc stop [Service Name]
+```
+
+
+
+<br /><br />
+<h3>Removing a Service</h3>
+If you find a service that you do not recognize or deem to be suspicious/malicious. This command can be used to remove said service.
+<br /><br />
+
+```Batch
+sc delete [Service Name]
 ```
 
 
